@@ -13,5 +13,5 @@ jobs:
       - name: 'Dependency Review'
         uses: actions/dependency-review-action@v3
         with:
-          config-file: 'future-funk/miniature-waddle/dr-config.yml@master'
+          config-file: 'future-funk/miniature-waddle/dr-config.yml@main'
           external-repo-token: ${{ secrets.DR_SECRET }}

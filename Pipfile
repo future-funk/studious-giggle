@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[[source]]
+
+[dev-packages]
+
+[packages]
+python-json-logger = "==2.0.1"
+lxml = "==4.6.1"
+boto3 = "*"
+
+[requires]
+python_version = "3.8"

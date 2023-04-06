@@ -13,6 +13,5 @@ jobs:
       - name: 'Dependency Review'
         uses: actions/dependency-review-action@v3
         with:
-          fail-on-severity: 'critical'
-#          config-file: 'future-funk/miniature-waddle/dep-review-config.yml@main'
+          config-file: './dep-review-config.yml'
 #          external-repo-token: ${{ secrets.DR_SECRET }}
